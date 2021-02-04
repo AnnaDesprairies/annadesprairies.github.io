@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Comic Sans, Comic Sans MS, cursive; 
+  font-size: 100%;
+  color: darkslategray;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px ;
+  font-size: 175%;
+}
+
+.row {
+  width: 100%;
+  }
+
+/*Large screen*/
+@media (min-width: 992px)  {
+  .col-lg 
+  {
+    float: left;
+  }  
+  .col-lg {
+    width: 33.33%;
+  }
+}
+
+/*Medium screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 
+  {
+    float: left; 
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/*Small screen*/
+@media (max-width: 767px) {
+  .col-sm-12 
+  {   
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+.dishes{
+  background-color: rgb(250, 250, 217);
+  border: 1px solid black;
+  margin : 10px;
+  position: relative;
+}
+
+h2 {   
+  font-size: 125%; 
+  width: 150px;
+  height: 35px;
+  border-bottom: 1px solid;
+  border-left: 1px solid black;
+  text-align: center;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+p.text{
+  padding: 40px 20px 20px 20px;
+}
+#lasagne {
+  background-color: red ;
+}
+#salCeasar {
+  background-color: green;
+}
+#sushi {
+  background-color: lightseagreen;
+}
